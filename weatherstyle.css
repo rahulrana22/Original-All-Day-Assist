@@ -1,0 +1,86 @@
+﻿*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 140vh;
+    background-color: gray;
+    background-image: linear-gradient(rgb(14, 36, 165),rgb(17, 147, 223));
+}
+#app-container 
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 140vh;
+}
+#temp
+{
+    text-align: center;
+}
+#temp #temp-value
+{
+    color: #fff;
+    font-size: 5rem;
+}
+#temp #temp-unit
+{
+    color:#fff;
+    font-size: 4rem;
+}
+#temp-icon
+{
+    margin: 5rem;
+    width: 40%;
+    height: auto;
+}
+#Location
+{
+   font-family: sans-serif;
+   color: #e0e0e0;
+   font-size: 2.5rem;
+}
+#climate
+{
+    color: #e0e0e0;
+    font-size: 2.5rem;
+}
+
+
+.wrapper .navbar{
+    height: 90px;
+    width: 100%;
+    background:rgb(0,0,0,0.4);
+    position: fixed;
+   }
+.wrapper .navbar .logo {
+   width: 300px;
+   height: 95px;
+   padding: 7px 65px;
+   }
+.wrapper .navbar ul{
+   float: right;
+   margin-right: 20px;
+   }
+.wrapper .navbar ul li{
+   list-style:none;
+   margin: 0 8px;
+   display: inline-block;
+   line-height: 80px;
+   }
+.wrapper .navbar ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 24px;
+   padding: 6px 13px;
+   font-family: arial Black;
+   }
+.wrapper .navbar ul li  a.active,
+.wrapper .navbar ul li a:hover{
+   background: red;
+   border-radius: 2px;
+   }
+

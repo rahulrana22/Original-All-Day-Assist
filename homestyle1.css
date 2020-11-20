@@ -1,0 +1,66 @@
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ .wrapper{
+  background-image: url(homebg.jpg);
+ background-position: center center;
+ -webkit-background-size:cover;
+ background-size:cover;
+ height:100vh;
+ }
+ .navbar{
+  height: 90px;
+  width: 100%;
+  background:rgb(0,0,0,0.4);
+  position: fixed;
+}
+.logo{
+ width: 150px;
+ height: 75px;
+ padding:10px 65px;
+}
+.navbar ul{
+ float: right;
+ margin-right: 20px;
+}
+.navbar ul li{
+ list-style:none;
+ margin: 0 8px;
+ display: inline-block;
+ line-height: 80px;
+}
+.navbar ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 24px;
+ padding: 6px 13px;
+ font-family: arial Black;
+}
+.navbar ul li  a.active,
+.navbar ul li a:hover{
+ background: red;
+ border-radius: 2px;
+}
+.wrapper .center{
+ position: absolute;
+ top: 60%;
+ left: 25%;
+ font-family: impact;
+ transform: translate(-50px,-50px);
+user-select: none;
+}
+.center #small{
+ color: yellow;
+ font-size: 70px;
+ font-weight: bold;
+ width:900px;
+ text-align: center;
+}
+.center #big{
+ color: yellow;
+ font-size: 100px;
+ font-weight: bold;
+ width:900px;
+ text-align: center;
+}
